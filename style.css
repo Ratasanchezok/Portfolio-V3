@@ -179,3 +179,14 @@ html, body{
   font-family: Georgia, 'Times New Roman', Times, serif;;
   font-size: 36px;
 }
+
+.post-footer-p{
+  color: rgb(5, 253, 179);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: small;
+  text-align: center;
+}
+
+.post-footer{
+  margin-top: 70px;
+}
