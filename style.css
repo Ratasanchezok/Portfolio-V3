@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Chilanka&family=Sansita+Swashed:wght@300;400;700;900&display=swap');
+
+html, body{
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  font-family: 'Chilanka', cursive;
+  font-family: 'Sansita Swashed', cursive;
+}
+
+.nav-bar{
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+}
+
+.container{
+  margin-left: 15px;
+}
+
+
+
+.logo{
+  width: auto;
+  grid-column: 1;
+  text-align: left;
+  margin-top: 15px;
+}
+
+.links-page{
+  grid-column: 2;
+  justify-content: right;
+  margin-top: 20px;
+}
+
+.list-ul{
+  list-style: none;
+  display: inline-flex;
+  justify-content: space-around; 
+  width: 100%;
+}
+
+
+.hamburger{
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+.link-p{
+  color: #80ffdb;
+  margin-right: 10px;
+}
+
+.link-p2{
+  color: #80ffdb;
+}
+
+
+.container-presentation{
+  display: flex;
+  justify-content: center;
+}
+
+.img-symbol{
+  max-width: auto;
+}
+
+.title-presentation{
+  color: white;
+  font-size: 32px;
+}
+
+.presentation-text{
+  color: #56cfe1;
+  font-size: 16px;
+}
+
+.aboutMe-title{
+  color: white;
+  font-size: 40px;
+  text-align: center;
+}
+
+.aboutMe-text{
+  color: #48bfe3;
+}
+
+.myFt{
+  max-width: 480px;
+}
+
+.neon-circles-img{
+  max-width: 30%;
+}
+
+.title-skills{
+  color: white;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 70px;
+}
+
+.mySkills{
+  display: flex;
+  justify-content: space-around;
+}
+
+.img-preoject{
+  max-width: 80%;
+}
+
+.container-projects{
+  
+}
+
+.carrusel-projects{
+  display: grid;
+  grid-auto-flow: column;
+  scroll-behavior: auto;
+  gap: 1.2rem;
+  overflow-y: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+}
+
+.title-project{
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  
+}
+
+.project1, .project2, .project3{
+  align-items: center;
+  text-align: center;
+}
+
+.presentation{
+  max-width: 50%;
+}
+
+.about-me{
+  display: flex;
+  align-items: center;
+}
+
+.short-Description{
+  display: grid;
+  text-align-last: center;
+  position: relative;
+  top: 10px;
+  width: 50%;
+}
+
+.firm-img{
+    width: 260px;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+  align-items: center;
+}
+
+.img-links{
+  width: 68px;
+}
+
+.links-svg{
+  
+}
+
+.project-title{
+  color: white;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;;
+  font-size: 36px;
+}
