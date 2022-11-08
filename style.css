@@ -246,6 +246,7 @@ body {
 
 .post-footer {
   margin-top: 70px;
+  margin-bottom: 40px;
 }
 
 .linea0,
@@ -298,6 +299,3 @@ body {
 }
 
 
-@media (max-width: 500px) {
-  
-}
