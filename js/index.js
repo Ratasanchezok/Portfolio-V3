@@ -1,5 +1,5 @@
 document.querySelector(".bars__menu").addEventListener ("click",animateBars);
-document.querySelector(".bars__menu").addEventListener ("",animateBars);
+document.querySelector(".bars__menu").addEventListener ("fullscreenchange",animateBars);
 
 
 var line1__bars = document.querySelector(".line1__bars-menu");
