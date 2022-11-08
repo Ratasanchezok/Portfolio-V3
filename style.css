@@ -45,7 +45,7 @@ body {
 
 .active_icon__complete{
   display: block;
-  margin-left: 50%;
+  margin-left: 55%;
   transition: 6000ms;
   transform-box:inherit;
   transform: rotate(180deg);
