@@ -86,6 +86,7 @@ body {
   margin-left: 2000px;
   transition: 12000ms;
   transform: rotate(90deg) translate(-2px, 1px);
+  transform-box:inherit;
 
 }
 
@@ -258,6 +259,12 @@ body {
 }
 
 @media (max-width: 1100px) {
+
+  html,
+body {
+  overflow-x: hidden;
+}
+
   .carrusel-projects {
     display: grid;
     grid-template-columns: 1fr;

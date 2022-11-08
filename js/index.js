@@ -10,9 +10,14 @@ function animateBars(){
   line1__bars.classList.toggle("activeline1__bars-menu");
   line2__bars.classList.toggle("activeline2__bars-menu");
   line3__bars.classList.toggle("activeline3__bars-menu");
-  icon__complete.classList.toggle("active_icon__complete");
   list__ul.classList.toggle("activehamburger__dropped")
 }
+
+      
+
+
+
+
 
 
 
