@@ -40,7 +40,17 @@ body {
   background-color: cyan;
   margin-top: 6px;
   transform-origin: 0px 100%;
-  transition: all 800ms;
+  transition: all 2000ms;
+}
+
+.active_icon__complete{
+  display: block;
+  margin-left: 50%;
+  transition: 6000ms;
+  transform-box:inherit;
+  transform: rotate(180deg);
+  transform-origin: 0px 100%;
+
 }
 
 .activeline1__bars-menu {
@@ -75,7 +85,7 @@ body {
   margin-top: -7000px;
   margin-left: 2000px;
   transition: 12000ms;
-  transform: rotate(180deg) translate(-2px, 1px);
+  transform: rotate(90deg) translate(-2px, 1px);
 
 }
 
